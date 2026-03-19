@@ -68,7 +68,7 @@ const ContactSection = () => {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
-          className="bg-white/50 backdrop-blur-2xl border border-white/60 p-8 rounded-[32px] shadow-[0_8px_32px_rgba(0,0,0,0.04)]"
+          className="bg-white/90 backdrop-blur-2xl border border-white/60 p-8 rounded-[32px] shadow-xl"
           onSubmit={(e) => e.preventDefault()}
         >
           <div className="space-y-6">

@@ -13,7 +13,7 @@ const AboutSection = () => {
       >
         <div className="order-2 md:order-1 relative">
           <div className="absolute inset-0 bg-gradient-to-tr from-lavender/30 via-transparent to-pink/30 rounded-[32px] blur-2xl -z-10 transform scale-95" />
-          <div className="bg-white/40 backdrop-blur-xl border border-white/60 rounded-[32px] p-8 md:p-12 shadow-[0_8px_32px_rgba(0,0,0,0.04)] relative overflow-hidden group">
+          <div className="bg-white/90 backdrop-blur-xl border border-white/60 rounded-[32px] p-8 md:p-12 shadow-xl relative overflow-hidden group">
             <div className="absolute top-0 right-0 w-32 h-32 bg-blue/20 rounded-full blur-3xl -mr-10 -mt-10 transition-transform duration-700 group-hover:scale-150" />
 
             <h3 className="text-2xl font-semibold mb-6 text-text-primary italic">A learner, builder, and problem-solver.</h3>
@@ -40,7 +40,7 @@ const AboutSection = () => {
 
           <div className="relative group">
             <div className="absolute -inset-1 bg-gradient-to-r from-lavender to-pink rounded-[32px] blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200" />
-            <div className="relative aspect-square md:aspect-[4/3] rounded-[32px] overflow-hidden bg-white/40 backdrop-blur-sm border border-white/60 shadow-inner group-hover:shadow-2xl transition-all duration-500">
+            <div className="relative aspect-square md:aspect-[4/3] rounded-[32px] overflow-hidden bg-white/90 backdrop-blur-sm border border-white/60 shadow-inner group-hover:shadow-2xl transition-all duration-500">
               <img
                 src={profilePhoto}
                 alt="Praneet Kaur"

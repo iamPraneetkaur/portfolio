@@ -70,7 +70,7 @@ const ProjectsSection = () => {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-5xl font-bold tracking-tight text-text-primary"
         >
-          Selected <span className="text-transparent bg-clip-text bg-gradient-to-r from-lavender via-pink to-blue">Works</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-lavender via-pink to-blue">Projects</span>
         </motion.h2>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
@@ -97,7 +97,7 @@ const ProjectsSection = () => {
           >
             <div className="absolute inset-0 bg-white/40 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             
-            <div className="relative h-full flex flex-col bg-white/60 backdrop-blur-xl border border-white/60 rounded-3xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 hover:-translate-y-2">
+            <div className="relative h-full flex flex-col bg-white/90 backdrop-blur-xl border border-white/60 rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
               <div className={`h-48 w-full ${project.color} relative overflow-hidden`}>
                 <motion.img 
                   layoutId={`image-${project.id}`}

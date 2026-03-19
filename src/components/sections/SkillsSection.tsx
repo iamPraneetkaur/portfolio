@@ -72,7 +72,7 @@ const SkillsSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: catIndex * 0.1 }}
-            className="bg-white/40 backdrop-blur-xl border border-white/60 rounded-[32px] p-8 shadow-sm hover:shadow-md transition-all duration-500"
+            className="bg-white/90 backdrop-blur-xl border border-white/60 rounded-[32px] p-8 shadow-xl hover:shadow-2xl transition-all duration-500"
           >
             <h3 className="text-xl font-bold text-text-primary mb-6 flex items-center">
               <span className="w-2 h-2 rounded-full bg-lavender mr-3"></span>
@@ -101,7 +101,7 @@ const SkillsSection = () => {
         transition={{ duration: 0.8 }}
         className="max-w-4xl mx-auto px-4"
       >
-        <div className="bg-white/60 backdrop-blur-2xl border border-white/60 rounded-[32px] overflow-hidden shadow-sm">
+        <div className="bg-white/90 backdrop-blur-2xl border border-white/60 rounded-[32px] overflow-hidden shadow-xl">
           <div className="px-8 py-6 bg-gradient-to-r from-lavender/10 to-pink/10 border-b border-white/60">
             <h3 className="text-xl font-bold text-text-primary">Tools & Platforms Summary</h3>
           </div>

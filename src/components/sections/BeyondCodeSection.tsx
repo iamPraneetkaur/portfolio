@@ -31,7 +31,7 @@ const BeyondCodeSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="bg-white/40 backdrop-blur-xl border border-white/60 rounded-[32px] p-8"
+          className="bg-white/90 backdrop-blur-xl border border-white/60 rounded-[32px] p-8 shadow-xl hover:shadow-2xl transition-all duration-500"
         >
           <div className="w-12 h-12 rounded-2xl bg-lavender/20 flex items-center justify-center mb-6">
             <Palette className="w-6 h-6 text-lavender" />
@@ -47,7 +47,7 @@ const BeyondCodeSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="bg-white/40 backdrop-blur-xl border border-white/60 rounded-[32px] p-8"
+          className="bg-white/90 backdrop-blur-xl border border-white/60 rounded-[32px] p-8 shadow-xl hover:shadow-2xl transition-all duration-500"
         >
           <div className="w-12 h-12 rounded-2xl bg-pink/20 flex items-center justify-center mb-6">
             <ShoppingBag className="w-6 h-6 text-pink" />
@@ -63,7 +63,7 @@ const BeyondCodeSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="bg-white/40 backdrop-blur-xl border border-white/60 rounded-[32px] p-8"
+          className="bg-white/90 backdrop-blur-xl border border-white/60 rounded-[32px] p-8 shadow-xl hover:shadow-2xl transition-all duration-500"
         >
           <div className="w-12 h-12 rounded-2xl bg-blue/20 flex items-center justify-center mb-6">
             <Heart className="w-6 h-6 text-blue" />

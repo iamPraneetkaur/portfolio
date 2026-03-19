@@ -54,7 +54,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-text-primary mb-4"
           >
-            Praneet Kaur <span className="text-lavender/50 block md:inline">—</span> <span className="text-2xl md:text-4xl text-text-secondary font-medium block md:inline italic">Student Developer</span>
+            Praneet Kaur <span className="text-lavender/50 block md:inline">—</span> <span className="text-2xl md:text-4xl text-text-secondary font-medium block md:inline italic">Exploring Android Development & Data Science</span>
           </motion.h1>
 
           <motion.div
@@ -81,7 +81,7 @@ const HeroSection = () => {
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <a
                 href="#projects"
-                className="group relative inline-flex items-center justify-center px-8 py-4 text-base font-medium text-text-primary bg-white/60 hover:bg-white/90 backdrop-blur-md rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-white/50 transition-all duration-300 hover:-translate-y-1"
+                className="group relative inline-flex items-center justify-center px-8 py-4 text-base font-medium text-text-primary bg-white/60 hover:bg-white/90 backdrop-blur-md rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] border border-white/50 transition-all duration-300 hover:-translate-y-1"
               >
                 View Projects
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -90,7 +90,7 @@ const HeroSection = () => {
               <div className="flex items-center gap-2">
                 <button
                   onClick={() => setCvConfig({ open: true, type: 'general' })}
-                  className="group relative inline-flex items-center justify-center px-6 py-3.5 text-sm font-medium text-text-primary bg-white/40 hover:bg-white/80 backdrop-blur-md rounded-full border border-white/50 transition-all duration-300 hover:-translate-y-1"
+                  className="group relative inline-flex items-center justify-center px-6 py-3.5 text-sm font-medium text-text-primary bg-white/60 hover:bg-white/90 backdrop-blur-md rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] border border-white/50 transition-all duration-300 hover:-translate-y-1"
                 >
                   General CV
                   <FileText className="ml-2 w-3.5 h-3.5 opacity-60 group-hover:opacity-100 transition-opacity" />
@@ -98,10 +98,10 @@ const HeroSection = () => {
 
                 <button
                   onClick={() => setCvConfig({ open: true, type: 'specialized' })}
-                  className="group relative inline-flex items-center justify-center px-6 py-3.5 text-sm font-bold text-text-primary bg-white/80 hover:bg-white backdrop-blur-md rounded-full border-2 border-lavender/30 transition-all duration-300 hover:-translate-y-1 shadow-sm"
+                  className="group relative inline-flex items-center justify-center px-6 py-3.5 text-sm font-medium text-text-primary bg-white/60 hover:bg-white/90 backdrop-blur-md rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] border border-white/50 transition-all duration-300 hover:-translate-y-1"
                 >
                   Specialized CV
-                  <FileText className="ml-2 w-3.5 h-3.5 text-lavender" />
+                  <FileText className="ml-2 w-3.5 h-3.5 opacity-60 group-hover:opacity-100 transition-opacity" />
                 </button>
               </div>
             </div>
