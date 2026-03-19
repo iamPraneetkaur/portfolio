@@ -24,7 +24,7 @@ const Navbar = () => {
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-16 flex items-center justify-between">
         <a href="#" className="text-2xl font-semibold tracking-tight text-text-primary">
-          PK.
+          Praneet
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
