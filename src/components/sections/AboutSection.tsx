@@ -17,12 +17,15 @@ const AboutSection = () => {
             <div className="absolute top-0 right-0 w-32 h-32 bg-blue/20 rounded-full blur-3xl -mr-10 -mt-10 transition-transform duration-700 group-hover:scale-150" />
 
             <h3 className="text-2xl font-semibold mb-6 text-text-primary italic">A learner, builder, and problem-solver.</h3>
-            <p className="text-lg text-text-secondary leading-relaxed mb-6">
-              I am a dedicated builder who finds joy in exploring the intersection of mobile software and data-driven insights. My approach transitions from crafting intuitive Android applications to analyzing complex datasets to find meaningful logic and patterns. Beyond code, I maintain a hands-on mindset through creative pursuits, which fuels my perspective on design and functional problem-solving.
-            </p>
-            <div className="space-y-4 pt-6 border-t border-white/20">
-              <p className="text-lg text-text-secondary leading-relaxed">
-                My work is driven by a blend of technical adaptability and human-centric values like empathy and creativity. Outside of development, I manage a small creative venture, <span className="text-text-primary font-medium">Parimium Artworks</span>, and hold a strong inclination toward animal welfare, reflecting a commitment to building for real-world impact.
+            <div className="space-y-6 text-lg text-text-secondary leading-relaxed">
+              <p>
+                I am a dedicated builder who enjoys exploring the intersection of mobile development and data-driven insights. I work on crafting intuitive Android applications while also analyzing datasets to uncover meaningful patterns and logic.
+              </p>
+              <p>
+                Beyond coding, I maintain a hands-on creative mindset that shapes my approach to design and problem-solving. This helps me build solutions that are both functional and thoughtful.
+              </p>
+              <p className="pt-6 border-t border-white/20">
+                My work is guided by adaptability, empathy, and creativity. Outside of development, I run <span className="text-text-primary font-medium">Parimium Artworks</span> and have a strong inclination toward animal welfare, reflecting my focus on creating real-world impact.
               </p>
             </div>
           </div>
